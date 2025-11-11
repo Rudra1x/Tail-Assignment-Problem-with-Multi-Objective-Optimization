@@ -1,0 +1,82 @@
+[
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T1",
+            "F2": "T2",
+            "F3": "T2",
+            "F4": "T3",
+            "F5": "T1"
+        },
+        "score_cost": 585,
+        "score_util_variance": 5550.0,
+        "score_delay_penalty": 225,
+        "tail_durations": {
+            "T1": 180,
+            "T2": 225,
+            "T3": 120
+        },
+        "scenario": "Cost_Focus",
+        "energy": -4415.0
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T2",
+            "F2": "T1",
+            "F3": "T1",
+            "F4": "T3",
+            "F5": "T2"
+        },
+        "score_cost": 595,
+        "score_util_variance": 5550.0,
+        "score_delay_penalty": 225,
+        "tail_durations": {
+            "T2": 180,
+            "T1": 225,
+            "T3": 120
+        },
+        "scenario": "Util_Focus",
+        "energy": -91325.0
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T2",
+            "F2": "T1",
+            "F3": "T3",
+            "F4": "T3",
+            "F5": "T2"
+        },
+        "score_cost": 620,
+        "score_util_variance": 5550.0,
+        "score_delay_penalty": 0,
+        "tail_durations": {
+            "T2": 180,
+            "T1": 120,
+            "T3": 225
+        },
+        "scenario": "Delay_Focus",
+        "energy": -5000.0
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T2",
+            "F2": "T3",
+            "F3": "T1",
+            "F4": "T1",
+            "F5": "T2"
+        },
+        "score_cost": 595,
+        "score_util_variance": 5550.0,
+        "score_delay_penalty": 0,
+        "tail_durations": {
+            "T2": 180,
+            "T3": 120,
+            "T1": 225
+        },
+        "scenario": "Balanced",
+        "energy": -33290.9
+    }
+]

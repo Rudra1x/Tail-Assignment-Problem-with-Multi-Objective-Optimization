@@ -1,0 +1,76 @@
+{
+  "flights": [
+    {
+      "flight_id": "F1",
+      "origin": "A",
+      "dest": "B",
+      "start_time": 480,
+      "end_time": 570
+    },
+    {
+      "flight_id": "F2",
+      "origin": "B",
+      "dest": "C",
+      "start_time": 615,
+      "end_time": 735
+    },
+    {
+      "flight_id": "F3",
+      "origin": "C",
+      "dest": "A",
+      "start_time": 780,
+      "end_time": 885
+    },
+    {
+      "flight_id": "F4",
+      "origin": "A",
+      "dest": "C",
+      "start_time": 540,
+      "end_time": 660
+    },
+    {
+      "flight_id": "F5",
+      "origin": "B",
+      "dest": "A",
+      "start_time": 660,
+      "end_time": 750
+    }
+  ],
+  "tails": [
+    {
+      "tail_id": "T1",
+      "min_turnaround": 45
+    },
+    {
+      "tail_id": "T2",
+      "min_turnaround": 45
+    },
+    {
+      "tail_id": "T3",
+      "min_turnaround": 50
+    }
+  ],
+  "costs": {
+    "T1": {
+      "F1": 100,
+      "F2": 120,
+      "F3": 110,
+      "F4": 130,
+      "F5": 115
+    },
+    "T2": {
+      "F1": 110,
+      "F2": 100,
+      "F3": 120,
+      "F4": 140,
+      "F5": 105
+    },
+    "T3": {
+      "F1": 130,
+      "F2": 140,
+      "F3": 135,
+      "F4": 150,
+      "F5": 145
+    }
+  }
+}
