@@ -1,0 +1,102 @@
+[
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T4",
+            "F2": "T2",
+            "F3": "T5",
+            "F4": "T5",
+            "F5": "T4",
+            "F6": "T1",
+            "F7": "T1",
+            "F8": "T2"
+        },
+        "score_cost": 1010,
+        "score_util_variance": 40800.0,
+        "score_delay_penalty": 100,
+        "tail_durations": {
+            "T4": 180,
+            "T2": 220,
+            "T5": 225,
+            "T1": 250,
+            "T3": 0
+        },
+        "scenario": "Cost_Focus",
+        "energy": -5747441.983122379
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T4",
+            "F2": "T1",
+            "F3": "T3",
+            "F4": "T3",
+            "F5": "T4",
+            "F6": "T5",
+            "F7": "T2",
+            "F8": "T1"
+        },
+        "score_cost": 1060,
+        "score_util_variance": 9600.0,
+        "score_delay_penalty": 0,
+        "tail_durations": {
+            "T4": 180,
+            "T1": 220,
+            "T3": 225,
+            "T5": 120,
+            "T2": 130
+        },
+        "scenario": "Util_Focus",
+        "energy": -6237275.0
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T1",
+            "F2": "T2",
+            "F3": "T5",
+            "F4": "T5",
+            "F5": "T1",
+            "F6": "T3",
+            "F7": "T4",
+            "F8": "T2"
+        },
+        "score_cost": 1035,
+        "score_util_variance": 9600.0,
+        "score_delay_penalty": 0,
+        "tail_durations": {
+            "T1": 180,
+            "T2": 220,
+            "T5": 225,
+            "T3": 120,
+            "T4": 130
+        },
+        "scenario": "Delay_Focus",
+        "energy": -6400000.000000007
+    },
+    {
+        "feasible": true,
+        "assignment": {
+            "F1": "T4",
+            "F2": "T2",
+            "F3": "T1",
+            "F4": "T1",
+            "F5": "T4",
+            "F6": "T3",
+            "F7": "T5",
+            "F8": "T2"
+        },
+        "score_cost": 1015,
+        "score_util_variance": 9600.0,
+        "score_delay_penalty": 0,
+        "tail_durations": {
+            "T4": 180,
+            "T2": 220,
+            "T1": 225,
+            "T3": 120,
+            "T5": 130
+        },
+        "scenario": "Balanced",
+        "energy": -6129890.54430382
+    }
+]
